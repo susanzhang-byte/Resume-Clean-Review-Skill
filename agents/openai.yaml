@@ -1,0 +1,14 @@
+interface:
+  display_name: Resume Editing
+  short_description: Score and tailor a résumé for a job posting
+  default_prompt: Use $resume-editing to score my original résumé and tailor it to
+    this job posting.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
